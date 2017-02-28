@@ -1,0 +1,20 @@
+{
+  "ERR":{
+    "prefix":"ERROR: ",
+    "msg":[
+      {"NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
+      {"DUPLICATE":"The item you tried to add was a duplicate"}
+    ],
+    "postfix": "!"
+  },
+  "danger":[
+
+  ],
+  "info":[
+
+  ],
+  "success":[
+
+  ],
+  "unknown":"Error: Unknown error."
+}
