@@ -1,6 +1,6 @@
 {
   "prefix":"Success!",
-  "msg":[
+  "messages":[
     {"USER_CREATED":"{0} was {2} created {1}"}
   ],
   "unknown":"Success! The action was completed",

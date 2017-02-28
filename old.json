@@ -1,20 +1,35 @@
 {
-  "ERR":{
+  "err":{
     "prefix":"ERROR: ",
-    "msg":[
+    "messages":[
       {"NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
       {"DUPLICATE":"The item you tried to add was a duplicate"}
     ],
     "postfix": "!"
   },
-  "danger":[
-
-  ],
-  "info":[
-
-  ],
-  "success":[
-
-  ],
+  "danger":{
+    "prefix":"DANGER: ",
+    "messages":[
+      {"NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
+      {"DUPLICATE":"The item you tried to add was a duplicate"}
+    ],
+    "postfix": "."
+  },
+  "info":{
+    "prefix":"FYI: ",
+    "messages":[
+      {"NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
+      {"DUPLICATE":"The item you tried to add was a duplicate"}
+    ],
+    "postfix": "."
+  },
+  "success":{
+    "prefix":"SUCCESS: ",
+    "messages":[
+      {"NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
+      {"DUPLICATE":"The item you tried to add was a duplicate"}
+    ],
+    "postfix": "!"
+  },
   "unknown":"Error: Unknown error."
 }
