@@ -1,7 +1,7 @@
+//'use strict'
 
 //Handles C# style formatted strings
-function parse(str,vars) {
-    let args = [].slice.call(vars, 1)
+function parse(str,args) {
     for(let i=0; i<args.length; i++){
       let regex = new RegExp("{["+i+"]\}","g")
       str = str.replace(regex, args[i])
@@ -44,31 +44,33 @@ function validate(sourceJSON){
 
 var msg = (sourceJSON,code,args,mtype) =>{
   let json = require(sourceJSON)
+  let slicelen = 1
 
   if(mtype){
     json = json[mtype]
+    slicelen = 2
   }
 
   try{
-    var msg = ""
+    var response = ""
     if(json.prefix){
-      msg += json.prefix
+      response += json.prefix
     }
 
     for(let i=0; i<json.messages.length; i++){
       if(json.messages[i][code]){
-        msg += json.messages[i][code] //[code
+        response += json.messages[i][code]
       }
     }
 
     if(json.postfix){
-      msg += json.postfix
+      response += json.postfix
     }
 
     if(arguments.length >= 2){
-       msg = parse(msg, args)
+       response = parse(response, [].slice.call(args, slicelen))
     }
-    return msg
+    return response
   }
   catch(e){
     console.log(e)

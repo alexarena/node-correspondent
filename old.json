@@ -2,7 +2,7 @@
   "err":{
     "prefix":"ERROR: ",
     "messages":[
-      {"NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
+      {"NOT_FOUND":"The item {0} was looking for was not found. {1} might have found it"},
       {"DUPLICATE":"The item you tried to add was a duplicate"}
     ],
     "postfix": "!"

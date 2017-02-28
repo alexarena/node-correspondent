@@ -1,4 +1,6 @@
 //var err = require('./correspondent')('./err')
+
+'use strict'
 var success = require('./correspondent')('./success')
 
 var msg = require('./correspondent')('./old')
@@ -10,6 +12,6 @@ var msg = require('./correspondent')('./old')
 //console.log(err('USER_NOT_FOUND','Alex','Alex2'))
 console.log(success('USER_CREATED','aarena1','hello','world'))
 
-console.log(msg('err','USER_NOT_FOUND','Something','Something else...'))
+console.log(msg('err','NOT_FOUND','Something','Something else...','something else 2'))
 
-// setInterval( ()=>{ console.log('yo') }, 3000);
+ setInterval( ()=>{ console.log('yo') }, 3000);
