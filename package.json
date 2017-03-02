@@ -1,0 +1,19 @@
+{
+  "name": "correspondent",
+  "version": "1.0.0",
+  "description": "Keep text consistent across your app.",
+  "main": "correspondent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexarena/node-correspondent.git"
+  },
+  "author": "Alex Arena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexarena/node-correspondent/issues"
+  },
+  "homepage": "https://github.com/alexarena/node-correspondent#readme"
+}

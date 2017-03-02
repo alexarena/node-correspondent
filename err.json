@@ -1,9 +1,0 @@
-{
-  "prefix":"ERROR: ",
-  "messages":[
-    {"USER_NOT_FOUND":"The item %s was looking for was not found. %s might have found it"},
-    {"DUPLICATE":"The item you tried to add was a duplicate"}
-  ],
-  "postfix": "!",
-  "unknown":"Error: Unknown error."
-}
