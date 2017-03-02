@@ -1,8 +1,8 @@
 {
   "err":{
-    "prefix":"ERROR: ",
+    "prefix":"ERROR at {0}: ",
     "messages":[
-      {"NOT_FOUND":"The item {0} was looking for was not found. {1} might have found it"},
+      {"NOT_FOUND":"The item \"{1}\" for was not found"},
       {"DUPLICATE":"The item you tried to add was a duplicate"}
     ],
     "postfix": "!"

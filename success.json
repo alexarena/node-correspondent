@@ -1,7 +1,7 @@
 {
-  "prefix":"Success!",
+  "prefix":"Success! ",
   "messages":[
-    {"USER_CREATED":"{0} was {2} created {1}"}
+    {"USER_CREATED":"User: {0} was created in the system"}
   ],
   "unknown":"Success! The action was completed",
   "postfix": "."

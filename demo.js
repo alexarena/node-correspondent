@@ -1,17 +1,10 @@
-//var err = require('./correspondent')('./err')
-
 'use strict'
-var success = require('./correspondent')('./success')
+const success = require('./correspondent')('./success')
+const correspondent = require('./correspondent')('./old')
 
-var msg = require('./correspondent')('./old')
+const suc = require('./success')
 
-//.config('./something.json')
+let user = 'aarena1'
+console.log(success('USER_CREATED','aarena1'))
 
-//console.log(err)
-
-//console.log(err('USER_NOT_FOUND','Alex','Alex2'))
-console.log(success('USER_CREATED','aarena1','hello','world'))
-
-console.log(msg('err','NOT_FOUND','Something','Something else...','something else 2'))
-
- setInterval( ()=>{ console.log('yo') }, 3000);
+console.log(correspondent('err','NOT_FOUND','12PM','Something'))
