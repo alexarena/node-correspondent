@@ -21,6 +21,12 @@ Correspondent introduces a few advantages over a static JSON files:
 - Safety. If you reference a message that doesn't exist, Correspondent will fallback to an default message.
 - Multiple message types in a single file.
 
+# Installation
+
+```js
+npm install correspondent --save
+```
+
 # Usage & Demo
 
 The idea behind Correspondent is best expressed through a demo.
@@ -115,5 +121,7 @@ Because Correspondent is basically an incremental improvement over using a plain
 
 - Tests, so that its more production-friendly.
 - Probably nothing else... there's just not that much to it.
+
+**License**
 
 Correspondent is distributed under the MIT license by [Alex Arena](http://alexarena.com).
